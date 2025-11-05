@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main {
+    color: black;
+    background-color: rgb(255, 204, 84);
+    width: 500px;
+}
