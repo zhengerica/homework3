@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color:cornflowerblue; font-size: 24px;">Welcome to my website!</h1>
+
+    <h3>About me</h3>
+
+    <p id = "main"> 
+        My name is Erica Zheng and I am a 3rd year studying data science and 
+        business with a concentration in finance, minoring in architectural design. On campus
+        I am the director of events and marketing of Disrupt, the fintech initiative, and the
+        director of venture acceleration of IDEA, the Northeastern's venture accelerator.
+        Food plays a big part in my life because it is what fills me up and keeps me going
+        throughout the day. I have two go-to meals, a mexican bowl from El Jefes, and my
+        tried and true spam fried rice. My spam fried rice was inspired by the popular Hawaiian
+        snack, spam musubi, which consist of a block of rice with a slice of spam glazed in
+        a sweet, soy sauce mixture, wrapped with a piece of nori, seaweed. Once in high school,
+        I was too lazy to put it together, and decided to make a "deconstructed" spam musubi. I
+        added my own touch to it, adding egg, and instead of a piece of nori, I grabbed a pack of
+        snacked seaweed. 4 years later, it is not only my go-to meal in college but a highly
+        requested meal by all my friends.
+    </p>
+    
+    <img src="https://www.allrecipes.com/thmb/tlKNHz7g_A5tIUdoY7NvJwHoKzs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-49785-spam-musubi-DDMFS-4x3-b85d3d803cc64e4a8272314e4ce532d0.jpg" alt="" width = 350>
+
+    <button id = 'recipeButton'>Spam Musubi Recipe</button>
+
+    <script>
+        const navigationButton = document.getElementById('recipeButton')
+        recipeButton.addEventListener('click', function(){
+            window.location.href = 'recipe.html';
+        }
+
+        )
+    </script>
+
+    <script>
+        const recipeButton = document.getElementById('recipeButton');
+        recipeButton.addEventListener('click', function() {
+        window.location.href = 'recipe.html';
+    });
+</script>
+
+ <a href="https://www.linkedin.com/in/zhengerica/">Visit my LinkedIn!</a>
+
+</body>
+</html>
